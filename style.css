@@ -165,13 +165,17 @@ gap: 10px;
 /*responsive design*/
 
  @media(max-width:48rem){
-/* body{
-    margin: 0 auto;
-} */
+body{
+    margin: 0 auto ;
+ padding: 0;
+}
 header{
-    width: 90%;
+  
     box-shadow: none;
    padding: 0 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 header h1{
@@ -224,7 +228,7 @@ display: none;
     /*note the responsive dessign worked because of 2 things firstly using a lesser width of 20 or 28rem  with 48rem of media query 
     and also using mainly display grid with 30rem ,20 or even 28 , the key is to use a lesser width  */
 main{
-    max-width:20rem;
+    width: 20rem;
     padding: 1rem ;
     display: flex;
     justify-content: center;
@@ -236,16 +240,23 @@ main{
     grid-template-columns: 100%;
     place-items: center; */
 }
-
-#first-section p ,#first-section h2 {
+#first-section{
+    width: 360px;
+}
+#first-section h2 {
     font-size:1rem;
     margin: 1rem;
 }
 
-
+#first-section p {
+    font-size: 1rem;
+    margin: 1rem ;
+    line-height: 2rem;
+}
 .my-profile h2>span{
     font-size:1.4rem;
 }
+
 
 #first-section{
    display: grid;
@@ -319,10 +330,15 @@ padding:0 1rem 0 1rem ;
 .my-goals ol>li:hover{
     transform: scale(1.05);
 }
+footer{
+    text-align: center;
+
+}
 
 footer ul{
     display: block;
     text-align: center;
+    margin: 0 auto;
 }
 
  }
