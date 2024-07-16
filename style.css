@@ -3,9 +3,7 @@ Light Grayish Magenta: hsl(300, 24%, 96%)
 White: hsl(0, 0%, 100%)
 Very Dark Magenta: hsl(300, 43%, 22%)
 Soft Pink: hsl(333, 80%, 67%) */
-* {
-    box-sizing: border-box;
-}
+
 
 
 body{
@@ -21,6 +19,7 @@ header{
    box-shadow: 1px 0.5px 0.5px grey;
    font-family: "Rubik", sans-serif;
  padding: 0 20px;
+ box-sizing: border-box;
 }
 header h1{
     font-size: 3rem;
@@ -177,6 +176,7 @@ body{
 header{
   width: 100%;
     box-shadow: none;
+    box-sizing: border-box;
    padding: 0 1rem;
    display: flex;
    justify-content: space-between;
