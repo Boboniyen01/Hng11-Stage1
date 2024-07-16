@@ -91,8 +91,7 @@ main{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-
-
+    text-align: center;
 }
 .display-date li>span{
     font-size: 3rem;
@@ -208,7 +207,7 @@ display: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 3rem;
+    width: 2rem;
     height: 2rem;
 }
 .menu-btn span{
@@ -225,10 +224,9 @@ display: none;
     nav ul{
         padding-left: 2rem;
     }
-    /*note the responsive dessign worked because of 2 things firstly using a lesser width of 20 or 28rem  with 48rem of media query 
-    and also using mainly display grid with 30rem ,20 or even 28 , the key is to use a lesser width  */
+/*give it a width of 100%*/
 main{
-    width: 20rem;
+    width: 100%;
     padding: 1rem ;
     display: flex;
     justify-content: center;
