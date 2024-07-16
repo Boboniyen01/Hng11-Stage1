@@ -3,6 +3,11 @@ Light Grayish Magenta: hsl(300, 24%, 96%)
 White: hsl(0, 0%, 100%)
 Very Dark Magenta: hsl(300, 43%, 22%)
 Soft Pink: hsl(333, 80%, 67%) */
+* {
+    box-sizing: border-box;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -56,6 +61,7 @@ color:   hsl(300, 43%, 22%);
 main{
     margin: 2rem auto;
     width: 900px;
+   
 }
 
 #first-section{
@@ -166,7 +172,7 @@ gap: 10px;
  @media(max-width:48rem){
 body{
     margin: 0 auto ;
- padding: 0;
+    padding: 0;
 }
 header{
   width: 100%;
@@ -175,6 +181,7 @@ header{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   overflow-x: hidden;
 }
 
 header h1{
@@ -207,8 +214,9 @@ display: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 2rem;
+    width: 3rem;
     height: 2rem;
+    font-family: "Rubik", sans-serif;
 }
 .menu-btn span{
     background-color: rgb(37, 35, 35);
